@@ -6,7 +6,7 @@
   "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
   "author": "MrTylerjet",
   "scripts": {
-    "postinstall": "copy .eslintrc ..\\..\\.eslintrc && copy .prettierrc ..\\..\\.prettierrc && ping -n 2 127.0.0.1 >NUL && npx install-peerdeps --yarn --dev --only-peers eslint-config-mrtylerjet"
+    "postinstall": "copy .eslintrc ..\\..\\.eslintrc && copy .prettierrc ..\\..\\.prettierrc && ping -n 2 127.0.0.1 >NUL && start npx install-peerdeps --yarn --dev --only-peers eslint-config-mrtylerjet"
   },
   "peerDependencies": {
     "eslint": "^7.29.0",
