@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
   "author": "MrTylerjet",
   "scripts": {
     "postinstall": "npx install-peerdeps --yarn --dev --only-peers eslint-config-mrtylerjet"
