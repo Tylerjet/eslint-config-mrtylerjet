@@ -5,7 +5,8 @@
   "license": "MIT",
   "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
   "author": "MrTylerjet",
-  "devDependencies": {
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
