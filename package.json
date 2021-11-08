@@ -5,9 +5,6 @@
   "license": "MIT",
   "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
   "author": "MrTylerjet",
-  "scripts": {
-    "postinstall": "echo npx install-peerdeps --yarn --dev --only-peers eslint-config-mrtylerjet -y > ..\\..\\postinstall.bat && copy .eslintrc ..\\..\\.eslintrc && copy .prettierrc ..\\..\\.prettierrc"
-  },
   "peerDependencies": {
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
