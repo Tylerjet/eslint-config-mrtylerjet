@@ -7,7 +7,7 @@
   "author": "MrTylerjet",
   "scripts": {
     "postinstall": "node postinstall",
-    "postuninstall": "rm .eslintrc .prettierrc"
+    "postuninstall": "node postuninstall"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
