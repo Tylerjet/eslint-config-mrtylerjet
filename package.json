@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mrtylerjet",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
