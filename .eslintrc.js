@@ -8,7 +8,7 @@ module.exports = {
   },
   extends: ['standard', 'prettier', 'eslint:recommended'],
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2020,
   },
   rules: {
     semi: ['error', 'always'],
