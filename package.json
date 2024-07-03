@@ -1,12 +1,13 @@
 {
   "name": "eslint-config-mrtylerjet",
-  "version": "1.0.17",
+  "version": "1.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/Tylerjet/eslint-config-mrtylerjet",
   "author": "MrTylerjet",
   "scripts": {
-    "postinstall": "node postinstall"
+    "postinstall": "node postinstall.mjs",
+    "postuninstall": "node postuninstall.mjs"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
