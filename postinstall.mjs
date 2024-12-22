@@ -1,7 +1,7 @@
 import { copyFile } from 'fs';
 import { join } from 'path';
 
-copyFile('.eslintrc', join(process.env.INIT_CWD, '.eslintrc'), (err) => {
+copyFile('eslint.config.mjs', join(process.env.INIT_CWD, 'eslint.config.mjs'), (err) => {
   if (err) throw err;
 });
 copyFile('.prettierrc', join(process.env.INIT_CWD, '.prettierrc'), (err) => {
